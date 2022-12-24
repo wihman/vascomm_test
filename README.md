@@ -53,5 +53,5 @@ Update Banner :
 
 Approve User :
 
-![alt text](public/application/approveadmin.jpg)
+![alt text](public/application/approvaladmin.jpg)
 
