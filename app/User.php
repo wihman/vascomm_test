@@ -12,7 +12,7 @@ class User extends Authenticatable
     use Notifiable;
     use HasRoles;
 
-    protected $table = 'users_eass';
+    protected $table = 'users';
 
     /**
      * The attributes that are mass assignable.
@@ -20,7 +20,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password', 'nik', 'job', 'email_verified_at', 'level'
+        'name', 'email', 'password','email_verified_at','alamat','level','approved','selfie'
     ];
 
     /**

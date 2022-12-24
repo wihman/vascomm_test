@@ -40,13 +40,15 @@ class AppServiceProvider extends ServiceProvider
             $permission     = str_replace(']',"", $permission_);
 
             $iduser         = Auth::user()->id;
-            $datauser       = User::where('users_eass.id', $iduser)
-                                ->leftJoin('guru', 'users_eass.nik', '=', 'guru.nik')
-                                ->get();
+            $datauser       = User::find($iduser);
 
-            return $view->with('userdetail', Crypt::encryptString($datauser))
-                        ->with('userinfo', Crypt::encryptString($permission))
+            return $view->with('userinfo', Crypt::encryptString($permission))
+                        ->with('userdetail', Crypt::encryptString($datauser))
                         ;
+
+//            return $view->with('userdetail', Crypt::encryptString($datauser))
+//                ->with('userinfo', Crypt::encryptString($permission))
+//                ;
         });
     }
 }

@@ -1,0 +1,14 @@
+{
+  "/app.css": "/dist/css/app.5e90bdc8.css",
+  "/app.js": "/dist/js/app.078b750f.js",
+  "/chunk-vendors.js": "/dist/js/chunk-vendors.67f2f768.js",
+  "/dashboard-index.css": "/dist/css/dashboard-index.54344c18.css",
+  "/dashboard-index.js": "/dist/js/dashboard-index.bb79c41f.js",
+  "/dashboard-product.js": "/dist/js/dashboard-product.d288b69f.js",
+  "/npm.apexcharts.js": "/dist/js/npm.apexcharts.6978c720.js",
+  "/npm.vue-apexcharts.js": "/dist/js/npm.vue-apexcharts.e4663800.js",
+  "/npm.vuetify.css": "/dist/css/npm.vuetify.8c3a3adc.css",
+  "/npm.vuetify.js": "/dist/js/npm.vuetify.1afcfb05.js",
+  "/favicon.ico": "/dist/favicon.ico",
+  "/index.html": "/dist/index.html"
+}
