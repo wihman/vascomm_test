@@ -15,6 +15,13 @@ Hanya bisa diakses oleh admin.
 
 Aplikasi ini dibangun menggunakan Laravel + Vue JS
 
+Login untuk admin: 
+http://domainname.com/login
+
+Login untuk customer:
+Bisa melakukan login langsung pada halaman home ataupun pada halaman login customer dibawah ini :
+http://domainname.com/loginuser
+
 
 ## Screenshoot Application ###
 
